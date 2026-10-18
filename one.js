@@ -7,3 +7,4 @@ export default {
   </div>
     <div class=toasts-container">
   </div>
+},
