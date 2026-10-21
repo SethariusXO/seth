@@ -1,4 +1,5 @@
 export default {
+  template: `
   <main class="seth">
     </main>
       <div class="air">
