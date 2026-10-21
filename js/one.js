@@ -1,4 +1,4 @@
-export default {
+export Seth {
   template: `
     <main class="seth">
       <div class="air">
