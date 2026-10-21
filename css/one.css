@@ -3,3 +3,59 @@
 .seth .toasts-container {
     padding-block: 2rem;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100%;
+    width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+.seth {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    overflow-x: hidden;
+}
+
+.seth-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.seth-container p {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.seth-container img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Phone screens */
+@media (max-width: 600px) {
+    .seth-container {
+        padding: 8px;
+    }
+
+    .seth-container img {
+        max-width: 100%;
+    }
+}
