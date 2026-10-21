@@ -18,15 +18,7 @@
     <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
 </head>
 <body>
-    <div class="logo">
-        <h2>Seth</h2>
-    </div>
-
-    <div id="app">
-        <p>Loading Seth...</p>
-    </div>
-
-    <script type="module">
+  <script type="module">
         const appElement = document.querySelector("#app");
 
         try {
@@ -35,11 +27,7 @@
             Vue.createApp(Seth)
                 .mount("#app");
         } catch (error) {
-            console.error("Failed to load Seth:", error);
-
-            appElement.innerHTML =
-                "<p>Failed to load Seth. Open the browser console for details.</p>";
-        }
-    </script>
+            console.error("Failed to load image:", error);
+  </script>
 </body>
 </html>
