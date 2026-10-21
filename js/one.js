@@ -6,7 +6,7 @@ export default {
       <div class="seth-container">
         <p>
           <img
-            src="../seth.jpg"
+            src="./seth.jpg"
             alt="Seth"
             width="500"
             height="600"
