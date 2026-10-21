@@ -1,5 +1,5 @@
 export default {
-  template: `
+  template: '
   <main class="seth">
       <div class="air">
     </div>
