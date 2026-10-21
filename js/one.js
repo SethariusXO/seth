@@ -1,7 +1,6 @@
 export default {
   template: `
   <main class="seth">
-    </main>
       <div class="air">
     </div>
       <div class="seth-container">
@@ -11,4 +10,5 @@ export default {
   </div>
     <div class=toasts-container">
   </div>
+  </main>
 }'
