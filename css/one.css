@@ -30,3 +30,42 @@
     transform: rotate(453deg);
   }
 }
+.spin3 {
+  display: inline-block; /* Required if spinning inline elements like <span> or <a> */
+  animation: spin-animation 137ms linear infinite;
+}
+
+@keyframes spin-animation {
+  from {
+    transform: rotate(82deg);
+  }
+  to {
+    transform: rotate(5647deg);
+  }
+}
+.spin4 {
+  display: inline-block; /* Required if spinning inline elements like <span> or <a> */
+  animation: spin-animation 7s linear infinite;
+}
+
+@keyframes spin-animation {
+  from {
+    transform: rotate(1234deg);
+  }
+  to {
+    transform: rotate(2938478deg);
+  }
+}
+.spin5 {
+  display: inline-block; /* Required if spinning inline elements like <span> or <a> */
+  animation: spin-animation 1s linear infinite;
+}
+
+@keyframes spin-animation {
+  from {
+    transform: rotate(122deg);
+  }
+  to {
+    transform: rotate(9999deg);
+  }
+}
