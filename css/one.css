@@ -4,7 +4,7 @@
     padding-block: 2rem;
 }
 
-.spin {
+.spin1 {
   display: inline-block; /* Required if spinning inline elements like <span> or <a> */
   animation: spin-animation 10ms linear infinite;
 }
@@ -15,5 +15,18 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.spin2 {
+  display: inline-block; /* Required if spinning inline elements like <span> or <a> */
+  animation: spin-animation 45ms linear infinite;
+}
+
+@keyframes spin-animation {
+  from {
+    transform: rotate(7deg);
+  }
+  to {
+    transform: rotate(453deg);
   }
 }
