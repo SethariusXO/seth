@@ -6,7 +6,7 @@
 
 .spin {
   display: inline-block; /* Required if spinning inline elements like <span> or <a> */
-  animation: spin-animation 2s linear infinite;
+  animation: spin-animation 10ms linear infinite;
 }
 
 @keyframes spin-animation {
